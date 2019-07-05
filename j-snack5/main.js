@@ -5,9 +5,10 @@ un numero, se è dispari inseriscilo nell’array*/
 // Dichiarazione variabili
 var numUtente;
 
+
 // Creo un array vuoto
 var numArray = [];
-console.log(numArray);
+
 
 // Chiedo per 6 volte all'utente di inserire un numero
 for (var i = 0; i < 6; i++) {
@@ -19,3 +20,5 @@ for (var i = 0; i < 6; i++) {
     numArray.push(numUtente);
   }
 }
+
+console.log(numArray);
