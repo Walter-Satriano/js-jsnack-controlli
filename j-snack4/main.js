@@ -23,7 +23,6 @@ nomeUtente = prompt("Inserisci il tuo nome");
 // Verifico che l'utente sia nella lista degli invitati
 for (var i = 0; i < listaInvitati.length; i++) {
 
-  // se l'utente è invitato allora stampo "complimenti"
   if (listaInvitati[i] == nomeUtente) {
     invitatoTrovato = true;
   }
